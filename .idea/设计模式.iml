@@ -2,7 +2,13 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java/0.简单工厂模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/1.工厂方法模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/2.抽象工厂" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/3.单例模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/5.原型模式" isTestSource="false" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
