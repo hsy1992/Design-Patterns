@@ -8,6 +8,12 @@
       <sourceFolder url="file://$MODULE_DIR$/java/2.抽象工厂" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/java/3.单例模式" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/java/5.原型模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/6.适配器模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/7.装饰模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/8.代理模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/9.外观模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/10.桥接模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/11.组合模式" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
