@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/java/9.外观模式" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/java/10.桥接模式" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/java/11.组合模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/12.享元模式" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
