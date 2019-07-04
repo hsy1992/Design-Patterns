@@ -2,8 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d5a6718-0481-40d0-bb36-66a3a7df0687" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/12.享元模式/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/13.策略模式/AbstractCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/13.策略模式/ICalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/13.策略模式/Minus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/13.策略模式/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/13.策略模式/Plus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/14.模板方法模式/MoAbstractCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/14.模板方法模式/MoPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/15.观察者模式/AbstractSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/15.观察者模式/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/15.观察者模式/Observer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/15.观察者模式/Observer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/15.观察者模式/Subject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Bridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Cpu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Decorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Disk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/ISendFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Memory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/MyBridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/PhoneSendFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/PhoneSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Prototype$SerializableObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Prototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Proxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/ProxySource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Sender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Sourceable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/WaiMaiSendFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/WaiMaiSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/duixiang/Wrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/jiekou/SourceSub1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/jiekou/SourceSub2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/jiekou/Sourceable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/jiekou/Wrapper2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/leishipeiqi/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/leishipeiqi/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/leishipeiqi/Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/leishipeiqi/Targetable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/putong/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/putong/PhoneSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/putong/SendFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/putong/Sender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/putong/WaiMaiSender.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +62,69 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/12.享元模式/ConnectionPool.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/15.观察者模式/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="162">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/15.观察者模式/Observer1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+              <folding>
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/15.观察者模式/Observer2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/15.观察者模式/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/15.观察者模式/AbstractSubject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1032#1033#0" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
+                <element signature="e#162#172#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Enumeration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -85,6 +184,18 @@
         <option value="$PROJECT_DIR$/java/11.组合模式/TreeNode.java" />
         <option value="$PROJECT_DIR$/java/11.组合模式/Tree.java" />
         <option value="$PROJECT_DIR$/java/12.享元模式/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/java/13.策略模式/ICalculator.java" />
+        <option value="$PROJECT_DIR$/java/13.策略模式/AbstractCalculator.java" />
+        <option value="$PROJECT_DIR$/java/13.策略模式/Plus.java" />
+        <option value="$PROJECT_DIR$/java/13.策略模式/Minus.java" />
+        <option value="$PROJECT_DIR$/java/13.策略模式/Multiply.java" />
+        <option value="$PROJECT_DIR$/java/14.模板方法模式/MoAbstractCalculator.java" />
+        <option value="$PROJECT_DIR$/java/14.模板方法模式/MoPlus.java" />
+        <option value="$PROJECT_DIR$/java/15.观察者模式/Observer.java" />
+        <option value="$PROJECT_DIR$/java/15.观察者模式/Observer1.java" />
+        <option value="$PROJECT_DIR$/java/15.观察者模式/Observer2.java" />
+        <option value="$PROJECT_DIR$/java/15.观察者模式/Subject.java" />
+        <option value="$PROJECT_DIR$/java/15.观察者模式/AbstractSubject.java" />
       </list>
     </option>
   </component>
@@ -92,9 +203,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1300" />
-    <option name="y" value="-494" />
-    <option name="width" value="1290" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
     <option name="height" value="830" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -121,7 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,13 +248,13 @@
               <item name="设计模式" type="b2602c69:ProjectViewProjectNode" />
               <item name="设计模式" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="12.享元模式" type="462c0819:PsiDirectoryNode" />
+              <item name="15.观察者模式" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,15 +270,15 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="jiekou" />
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java/1.工厂方法模式" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="jiekou" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,17 +474,18 @@
       <workItem from="1561983698033" duration="60000" />
       <workItem from="1562032265597" duration="4982000" />
       <workItem from="1562152497175" duration="903000" />
+      <workItem from="1562231806127" duration="1833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12903000" />
+    <option name="totallyTimeSpent" value="14736000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1300" y="-494" width="1290" height="830" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29166666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -416,37 +527,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/0.简单工厂模式/putong/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/0.简单工厂模式/putong/PhoneSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/0.简单工厂模式/putong/WaiMaiSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/0.简单工厂模式/putong/SendFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -781,12 +861,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/12.享元模式/ConnectionPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="936">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/13.策略模式/Plus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/13.策略模式/Minus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/13.策略模式/ICalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/13.策略模式/Multiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/13.策略模式/AbstractCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/14.模板方法模式/MoPlus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/14.模板方法模式/MoAbstractCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/15.观察者模式/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/15.观察者模式/Observer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/15.观察者模式/Observer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/15.观察者模式/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/15.观察者模式/AbstractSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#162#172#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
           </folding>
         </state>
       </provider>
