@@ -1,9 +1,8 @@
-package PACKAGE_NAME;
-
 /**
  * @author haosiyuan
  * @date 2019-07-05 20:43
- * @info
+ * @info 命令
  */
-public class Command {
+public interface Command {
+    void exe();
 }
