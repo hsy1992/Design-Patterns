@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java/0.简单工厂模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/1.工厂方法模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/2.抽象工厂" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/3.单例模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/5.原型模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/6.适配器模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/7.装饰模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/8.代理模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/9.外观模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/10.桥接模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/11.组合模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/12.享元模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/13.策略模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/14.模板方法模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/15.观察者模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/16.迭代子模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/17.责任链模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/18.命令模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/19.备忘录模式" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
